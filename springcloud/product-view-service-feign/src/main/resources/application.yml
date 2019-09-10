@@ -10,6 +10,17 @@ spring:
     encoding: UTF-8
     content-type: text/html
     mode: HTML5
+  datasource:
+    url: jdbc:mysql://localhost/how2java
+    username: root
+    password: admin
+    driver-class-name: com.mysql.jdbc.Driver
+    data: classpath:data.sql
+    initialization-mode: embedded
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 feign.hystrix.enabled: true
 management:
   endpoints:
@@ -19,3 +30,5 @@ management:
       cors:
         allowed-origins: "*"
         allowed-methods: "*"
+logging.level.org.springframework.security: info
+spring.thymeleaf.cache: false
