@@ -5,3 +5,12 @@ eureka:
 spring:
   application:
     name: index-gather-store-service
+  security:
+    user:
+      name: ymjrchx
+      password: ymjrchx
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
