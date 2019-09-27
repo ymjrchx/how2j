@@ -24,6 +24,7 @@ public class IndexService {
     RestTemplate restTemplate;
 
   /*  @HystrixCommand(fallbackMethod = "third_part_not_connected")
+  #spel 有冒号哦
     @Cacheable(key = "'all_codes'")*/
     public List<Index> fetch_indexes_from_third_part() {
         List<Map> temp = restTemplate.getForObject("http://127.0.0.1:8090/indexes/codes.json", List.class);
