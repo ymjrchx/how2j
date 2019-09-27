@@ -16,6 +16,7 @@ spring:
     password: admin
     driver-class-name: com.mysql.jdbc.Driver
     data: classpath:data.sql
+    #要执行sql 新版springboot 必须配置
     initialization-mode: embedded
   jpa:
     hibernate:
@@ -26,6 +27,7 @@ management:
   endpoints:
     web:
       exposure:
+        #查看所有的断点信息，必须配置
         include: "*"
       cors:
         allowed-origins: "*"
