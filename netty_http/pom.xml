@@ -184,11 +184,11 @@
         </dependency>
 
 
-        <dependency>
+     <!--   <dependency>
             <groupId>net.dgg.framework.tac.parent</groupId>
             <artifactId>dgg-framework-parent</artifactId>
             <version>1.0.6-RELEASE</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>net.dgg.framework.tac.redis</groupId>
             <artifactId>dgg-framework-redis</artifactId>
@@ -235,7 +235,10 @@
         </dependency>
 
 
-        <dependency>
+
+
+
+<!--        <dependency>
             <groupId>net.dgg.android</groupId>
             <artifactId>imageloader-glide</artifactId>
             <version>10.0.4</version>
@@ -273,7 +276,7 @@
             <groupId>net.dgg.android</groupId>
             <artifactId>sdk-core</artifactId>
             <version>1.0.4</version>
-        </dependency>
+        </dependency>-->
 
        <!-- net/dgg/baseservice-->
         <dependency>
@@ -283,11 +286,11 @@
         </dependency>
 
 
-        <dependency>
+    <!--    <dependency>
             <groupId>net.dgg.core</groupId>
             <artifactId>dgg-core-message</artifactId>
             <version>RELEASE</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>net.dgg.crypto</groupId>
             <artifactId>dgg-crypto</artifactId>
@@ -320,11 +323,11 @@
         </dependency>
 
 
-        <dependency>
+    <!--    <dependency>
             <groupId>net.dgg</groupId>
             <artifactId>hr-parent</artifactId>
             <version>1.0.0.RELEASE</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>net.dgg</groupId>
             <artifactId>hr-web</artifactId>
@@ -338,18 +341,18 @@
             <version>1.0.0-RELEASE</version>
         </dependency>
 
-        <dependency>
+<!--        <dependency>
             <groupId>net.dgg.iboss.parent</groupId>
             <artifactId>iboss-cloud-parent</artifactId>
             <version>3.0.2.RELEASE</version>
-        </dependency>
+        </dependency>-->
 
 
-        <dependency>
+   <!--     <dependency>
             <groupId>net.dgg.iboss.parent</groupId>
             <artifactId>iboss-parent</artifactId>
             <version>1.0.2-CLOUD</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>net.dgg.framework.tac.mongo</groupId>
             <artifactId>dgg-framework-mongo</artifactId>
@@ -374,18 +377,18 @@
             <artifactId>hr-common</artifactId>
             <version>1.0.0.RELEASE</version>
         </dependency>
-        <dependency>
+      <!--  <dependency>
             <groupId>net.dgg.oahr.parent</groupId>
             <artifactId>oahr-parent</artifactId>
             <version>1.0.0.RELEASE</version>
-        </dependency>
+        </dependency>-->
 
 
-        <dependency>
+<!--        <dependency>
             <groupId>net.dgg.resource.center.parent</groupId>
             <artifactId>resource-center-parent</artifactId>
             <version>1.0.4-RELEASE</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>net.dgg.resource.center</groupId>
             <artifactId>resource-center-common</artifactId>
@@ -441,11 +444,11 @@
             <artifactId>spring-boot-starter-noka</artifactId>
             <version>6.0.2-test</version>
         </dependency>
-        <dependency>
+      <!--  <dependency>
             <groupId>com.qiyuesuo.sdk</groupId>
             <artifactId>sdk-java</artifactId>
             <version>2.6.1</version>
-        </dependency>
+        </dependency>-->
 
 
         <dependency>
@@ -563,11 +566,11 @@
         </dependency>
 
 
-        <dependency>
+     <!--   <dependency>
             <groupId>net.fblock</groupId>
             <artifactId>data.synchronous</artifactId>
             <version>0.6.0.RELEASE</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
